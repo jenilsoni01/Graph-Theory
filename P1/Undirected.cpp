@@ -57,7 +57,7 @@ int main(){
         cin>>u>>v;
         edges.push_back({u,v});
     }
-    
+
     matrix(n,m,edges);
     /*
     Space: n*n
@@ -102,5 +102,23 @@ Adjacency Matrix: V*V
 Adjacency List: V+E
 Incidence Matrix: V*E
 
+5 5
+1 2
+2 3
+3 4
+4 0
+0 1
+
+5 10
+1 2
+1 3
+1 4
+1 0
+2 3
+2 4
+2 0
+3 4
+3 0
+4 0
 
 */
