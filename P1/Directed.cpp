@@ -20,7 +20,7 @@ void list1(int n,int m,vector<pair<int,int>> e){
     function<void(int,int)> add=[&](int u,int v){
         adj_list[u].push_back(v);
     };
-    for(auto ee:e)add(ee.first,ee.second);
+    for(auto ee:e)add(ee.first,ee.second);  
     cout<<"Adjacency List:\n";
     for(int i=0;i<n;++i){
         cout<<i<<":";
