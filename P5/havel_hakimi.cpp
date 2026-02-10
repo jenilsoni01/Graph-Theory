@@ -7,9 +7,9 @@ int main(){
     int n;
     cout<<"Enter the number of vertices: ";
     cin>>n;
-    vector<int> a(n-2);
+    vector<int> a(n);
     priority_queue<int> pq;
-    for(int i=0;i<n-2;++i)cin>>a[i],pq.push(a[i]);
+    for(int i=0;i<n;++i)cin>>a[i],pq.push(a[i]);
     int fl=1;
     while(pq.size()){
         int x=pq.top();
