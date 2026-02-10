@@ -69,7 +69,5 @@ int main(){
         pruferToTree(prufercodes[i]);
         cout<<"===============================\n\n";
     }
-
-    
-
+    return 0;
 }
